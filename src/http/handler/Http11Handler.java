@@ -1,4 +1,4 @@
-package handler;
+package http.handler;
 
 public class Http11Handler {
 }

@@ -1,8 +1,7 @@
-package handler;
+package http.handler;
 
 import java.io.BufferedReader;
 import java.io.OutputStream;
-import java.nio.charset.StandardCharsets;
 
 //HTTP 0.9
 public class Http09Handler implements HttpHandler{

@@ -1,6 +1,5 @@
-import handler.HandlerFactory;
-import handler.Http09Handler;
-import handler.HttpHandler;
+import http.handler.HandlerFactory;
+import http.handler.HttpHandler;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,7 +7,6 @@ import java.io.InputStreamReader;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.util.Arrays;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.

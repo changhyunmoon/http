@@ -1,4 +1,4 @@
-package handler;
+package http.handler;
 
 public class HandlerFactory {
     public static HttpHandler getHandler(String requestLine){
@@ -19,6 +19,7 @@ public class HandlerFactory {
             return new Http10Handler();
         }else if(version.contains("HTTP/2.0")){
             //return new Http20Handler();
+            return new Http20Handler();
         }
 
         //기본값은 0.9

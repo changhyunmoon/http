@@ -1,4 +1,4 @@
-package handler;
+package http.handler;
 
 import java.io.BufferedReader;
 import java.io.OutputStream;
